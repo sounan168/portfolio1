@@ -10,7 +10,12 @@ function home() {
       <img src="https://img.freepik.com/free-photo/beautiful-anime-character-cartoon-scene_23-2151035157.jpg" alt="" style={{width:'100%'}}/>
 
       </div>
-      <h1 style={{textAlign:"left",marginLeft:'50px'}}>HELLO,<br/><span>i am orm sounan</span></h1> 
+      <div style={{marginLeft:'50px',backgroundColor:'', whiteSpace: 'nowrap'}}>
+      
+      <h1 style={{textAlign:"left"}}>HELLO,</h1> 
+         <p className="namehome" >i am orm sounan</p>
+     </div>
+ 
       
       {/* <div style={{display:'flex',height:'100%',alignItems:'center',}}> */}
     {/* </div> */}

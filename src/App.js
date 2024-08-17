@@ -4,12 +4,13 @@ import {} from 'bootstrap'
 import { Routes, Route ,NavLink } from "react-router-dom";
 import Home from './component/home'
 import About from './component/about'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 function App() {
   return (
     <div className="container" style={{position:'relative',padding:'0'}}>
       
       <nav className="navbar navbar-expand-lg position-absolute " style={{zIndex:'1', width:'100%',paddingLeft:'10px',paddingRight:'10px'}}>
-  <NavLink className="navbar-brand" style={{zIndex:'1',color:'',fontSize:'35px',textTransform:'uppercase'}} to={"/"}>sounan</NavLink>
+  <NavLink className="navbar-brand" style={{zIndex:'1',color:'',fontSize:'35px',textTransform:'uppercase'}} to={"/"}><li></li>sounan</NavLink>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
